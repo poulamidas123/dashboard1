@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background: rgb(237, 237, 245);
+
+}
+.wrapper{
+    display: flex;
+    position: relative;
+
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #4e4679;
+    padding: 30px 0;
+}
+.wrapper .sidebar h2{
+    color:aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+    padding: 15px;
+}
+.wrapper .sidebar ul li a{
+    color: white;
+    display: inline-block;
+}
+.wrapper .sidebar ul{
+    color: aliceblue;
+    text-align: center;
+}
+.wrapper .sidebar ul li:hover{
+    background: rgb(127, 127, 176);
+}
+.wrapper .sidebar .foot{
+    color: aliceblue;
+    text-align: center;
+    padding: 120px 0;
+}
+.wrapper .sidebar .foot li{
+    padding: 15px;
+}
+.wrapper .sidebar .foot li:hover{
+    background: rgb(127, 127, 176);
+}
+.wrapper .sidebar .foot li a{
+    color: white;
+    display: inline-block;
+}
+.main_contain{
+    color: black;
+    width: 100%;
+    margin-left: 210px;
+    padding: 20px;
+}
+.main_contain .header{
+    
+    letter-spacing: 2px;
+}
+.main_contain .info{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: rgb(164, 157, 157);
+}
+table{
+    margin-top: 20px;
+}
+table thead tr th{
+    padding: 0 15px;
+}
+#box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    width:fit-content;
+    margin-left: 155px;
+    margin-top: -18px;
+}
+
+table thead tr th:hover{
+    border-radius: 10px;
+    
+    background-color: rgb(252, 254, 120);
+}
+.progress table{
+    border: 1px ;
+    border-radius: 10px;
+    height: 30%;
+   padding: 25px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.progress tr{
+    height: 30px;
+}
+.progress h3{
+    margin-top: 40px;
+}
+.progress td{
+    
+    padding: 0 25px;
+}
+.progress td div{
+    margin-left: -30px;
+    margin-bottom: -20px;
+    background-color: rgb(97, 144, 219);
+    width: 30px ;
+    border-radius: 50px;
+    
+}
+.progress .timeline::before{
+    content: '';
+    position:absolute;
+    height: 2px;
+    width: 800px;
+    background-color: gray;
+    top: 34%;
+    margin-left: 150px;
+    margin-right: auto;
+
+}
+.progress .timeline2{
+    content: '';
+    position:absolute;
+    height: 3px;
+    width: 800px;
+    background-color: gray;
+    top: 51%;
+    
+    margin-left: 140px;
+    margin-right: auto;
+
+}
+.progress .timeline3{
+    content: '';
+    position:absolute;
+    height: 2px;
+    width: 800px;
+    background-color: gray;
+    top: 70%;
+    
+    margin-left: 140px;
+    margin-right: auto;
+
+}
+
+
